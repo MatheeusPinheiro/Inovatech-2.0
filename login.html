@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="meuStilo7.css" />
+    <title>Ocorrências</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="conteudo p-conteudo"><!--conteudo-->
+            <div class="p-coluna"><!--Primeira Coluna-->
+                <h2 class="titulo">Seja bem vindo</h2>
+                <p class="descricao">
+                   E se a segurança de que está a sua volta dependesse de você? Ou de mim?
+                   Ou de todos nós? Seja um agente voluntário e ajude a proteger quem está ao seu redor!
+                </p>
+                <p class="descricao">
+                    Faça seu cadastro aqui.
+                </p>
+                <button onclick="fazerLogin()" id="signin" class="btn">Criar Conta</button>
+            </div><!--Fim Primeira coluna-->
+            <div class="s-coluna"> <!--Segunda Coluna-->
+                <h2 class="titulo">Sistema de Segurança comunitario</h2>
+                <div class="social-media">
+                    <ul class="social-media-icon">
+                        <li class="social-icon"><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+                        <li class="social-icon"><a href="#"><i class="fa-brands fa-instagram-square"></i></a></li>
+                        <li class="social-icon"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <p class="descricao">  Accusamus iste dicta quaera</p>
+                <form class="form">
+                    <label class="label-input">
+                        <i class="fa-solid fa-user  icon-modify"></i>
+                        <input type="text" placeholder="Usuario">
+                    </label>
+                   
+                    <label class="label-input">
+                        <i class="fa-solid fa-lock icon-modify"></i>
+                        <input type="password" placeholder="Senha" >
+                    </label>
+                   
+                    
+                    <button class="btn btn-form">Entrar</button>
+                </form>
+                
+            </div><!-- Fim segunda coluna-->
+        </div><!-- Fim conteudo-->
+        <div class="conteudo s-conteudo"><!--conteudo-->
+            <div class="p-coluna">
+                <h2>Criar Conta</h2>
+                <p class="descricao">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus iste dicta quaera
+                </p>
+                <p class="descricao">
+                    Accusamus iste dicta quaera
+                </p>
+                <button onclick="criarConta()" class="btn">Login</button>
+            </div>
+            <div class="s-coluna">
+                <h2 class="titulo">Crie sua conta </h2>
+                <div class="social-media">
+                    <ul class="social-media-icon">
+                        <li class="social-icon"><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+                        <li class="social-icon"><a href="#"><i class="fa-brands fa-instagram-square"></i></a></li>
+                        <li class="social-icon"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <p class="descricao">  Accusamus iste dicta quaera</p>
+                <form class="form">
+                    <label class="label-input">
+                        <i class="fa-solid fa-user  icon-modify"></i>
+                        <input type="text" placeholder="Nome" required >
+                    </label>
+
+                    <label class="label-input">
+                        <i class="fa-solid fa-id-badge icon-modify"></i>
+                        <input type="text" placeholder="CPF" required  >
+                    </label>
+                   
+                    <label class="label-input">
+                        <i class="fa-solid fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="E-mail" required >
+                    </label>
+                    
+                    <label class="label-input">
+                        <i class="fa-solid fa-user  icon-modify"></i>
+                        <input type="text" placeholder="Login" required >
+                    </label>
+                    <label class="label-input">
+                        <i class="fa-solid fa-lock icon-modify"></i>
+                        <input type="password" placeholder="Senha" required >
+                    </label>
+                   
+                    <button  class="btn btn-form">Cadastrar</button>
+                </form>
+               
+            </div>
+        </div> <!-- Fim conteudo-->
+    </div>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

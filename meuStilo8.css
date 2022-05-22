@@ -26,7 +26,6 @@
     background-image:linear-gradient(to top ,rgba(51, 51, 199, 0.5), rgba(3, 62, 134, 0.9)), url(img/bk.jpg);
     background-size: cover;
     background-position: top right;
-    
 }
 
 .container-area{
@@ -48,7 +47,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column; 
-    border-right: 3px solid var(--preto)
+    border-left: 3px solid #333;
 }
 .cont-texto h2{
     font-size: 26px;
@@ -234,9 +233,9 @@ form button:hover{
         color: var(--corBranca);
     }
 
-    .form label input{
+    form label input{
         background-color: transparent;
-        color: #fff;
+        color: var(--corBranca);
     }
 
     .form label input:hover{
@@ -289,9 +288,10 @@ form button:hover{
         color: var(--corBranca);
     }
 
-    .form label input{
+    form label input{
         background-color: transparent;
         width: calc(100vw - 20px);
+        color: var(--corBranca);
     }
 
     .form label input:hover{
@@ -343,8 +343,9 @@ form button:hover{
         color: var(--corBranca);
     }
 
-    .form label input{
+    form label input{
         background-color: transparent;
+        color: var(--corBranca);
     }
 
     .form label input:hover{

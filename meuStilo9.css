@@ -26,9 +26,32 @@
     background-image:linear-gradient(to top ,rgba(51, 51, 199, 0.5), rgba(3, 62, 134, 0.9)), url(img/bk.jpg);
     background-size: cover;
     background-position: top right;
-    
 }
 
+.botoes{
+    display: flex;
+}
+
+.botoes button{
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.b-excluir{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b-excluir button{
+    padding: 10px 40px;
+    background-color: rgb(231, 29, 29);
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
 .container-area{
     width: 1000px;
     height: 600px;
@@ -48,7 +71,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column; 
-    border-right: 3px solid var(--preto)
+    border-left: 3px solid #333;
 }
 .cont-texto h2{
     font-size: 26px;
@@ -114,7 +137,7 @@
 
 .form form{
     width: 100%;
-    height: 100%;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,6 +197,7 @@ form button:hover{
     background-color: var(--preto);
     color: var(--corBranca);
     border:2px solid var(--corPrincipal);
+    cursor: pointer;
 }
 
 .form-img{
@@ -234,9 +258,9 @@ form button:hover{
         color: var(--corBranca);
     }
 
-    .form label input{
+    form label input{
         background-color: transparent;
-        color: #fff;
+        color: var(--corBranca);
     }
 
     .form label input:hover{
@@ -289,9 +313,10 @@ form button:hover{
         color: var(--corBranca);
     }
 
-    .form label input{
+    form label input{
         background-color: transparent;
         width: calc(100vw - 20px);
+        color: var(--corBranca);
     }
 
     .form label input:hover{
@@ -343,8 +368,9 @@ form button:hover{
         color: var(--corBranca);
     }
 
-    .form label input{
+    form label input{
         background-color: transparent;
+        color: var(--corBranca);
     }
 
     .form label input:hover{
@@ -358,5 +384,14 @@ form button:hover{
     form button{
         width: calc(100vw - 20px);
         margin-right: 20px;
+    }
+
+    .botoes{
+        flex-direction: column-reverse;
+        margin-right: 10px;
+    }
+
+    .botoes button{
+        margin-bottom: 20px;
     }
 }

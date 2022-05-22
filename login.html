@@ -35,19 +35,32 @@
                         </div>
                         <label class="label-input">
                             <i class="fa-solid fa-user  icon-modify"></i>
-                            <input type="text" placeholder="Usuário">
+                            <input id="login" type="text" placeholder="Usuário">
                         </label>
                        
                         <label class="label-input">
                             <i class="fa-solid fa-lock icon-modify"></i>
-                            <input type="password" placeholder="Senha" >
+                            <input id="senha" type="password" placeholder="Senha" >
                         </label>
                        
                         
-                        <button class="btn btn-form">Entrar</button>
+                        <button id="entrar" class="btn btn-form">Entrar</button>
                     </form>
                 </div>
             </div>
         </div>
+
+        <div class="alerta">
+            <div class="alerta-area">
+                <div class="alerta-header" onclick="fecharAlerta()">
+                    <i class="fa-solid fa-rectangle-xmark"></i>
+                </div>
+                <div class="alerta-body">
+                    <p>Usuário ou senha invalidos</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/login.js"></script>
     </body>
 </html>
